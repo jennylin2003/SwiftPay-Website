@@ -34,7 +34,7 @@ body {
 
 .wrapper.main__img--container{
     width:100%;
-    max-width: 414 px; /* Iphone XR width
+    max-width: 414 px; /* Iphone XR width */
 }
 
 .wrapper.main__img--container img {
