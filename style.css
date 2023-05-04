@@ -51,6 +51,10 @@ body {
   transform: translateY(-50%);
 }
 
+.wrapper.text-box_title{
+    width:100%
+}
+
 .text-box svg {
   position: absolute;
   bottom: 0;
