@@ -13,7 +13,7 @@ body {
   background-color: transparent;
   background-image: url(images/name.svg);
   background-size: cover;
-  background-position: center;
+  background-position: center center;
   position: relative;
 }
 
@@ -33,7 +33,13 @@ body {
 }
 
 .wrapper.main__img--container{
-    width:100%
+    width:100%;
+    max-width: 414 px; /* Iphone XR width
+}
+
+.wrapper.main__img--container img {
+  width: 100%;
+  height: auto; /* maintain aspect ratio */
 }
 
 .text-box__title {
