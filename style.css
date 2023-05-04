@@ -32,6 +32,10 @@ body {
   }
 }
 
+.wrapper.main__img--container{
+    width:100%
+}
+
 .text-box__title {
   position: absolute;
   color: white;
