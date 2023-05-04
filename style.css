@@ -10,7 +10,7 @@ body {
 .text-box {
   height: 100vh;
   background-color: transparent;
-  background-image: url(images/encrypt.svg);
+  background-image: url(images/full screen.svg);
   background-size: cover;
   background-position: center;
   position: relative;
