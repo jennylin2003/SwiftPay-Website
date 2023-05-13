@@ -1,0 +1,17 @@
+fetch('https://swiftpay.herokuapp.com/login', {
+  method: 'POST',
+  headers: {
+    'Content-Type': 'application/json',
+  },
+  body: JSON.stringify({
+    name: '',
+    password: '',
+  }),
+})
+.then(response => response.json())
+.then(data => {
+  // Handle the response from the backend
+})
+.catch(error => {
+  // Handle any errors that occur during the request
+});
